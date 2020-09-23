@@ -33,6 +33,22 @@
     top: 20px;
     left: 25px;
 }
+a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: serif;
+    background: #8e8989;
+    color: #121111;
+    padding: 5px;
+}
+a:hover {
+    background: red;
+    color: #ffff;
+}
+a:active {
+    color: #ffffff;
+    background: #000;
+}
 h1 {
     text-decoration: line-through;
     letter-spacing: 3px;
