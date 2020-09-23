@@ -1,0 +1,168 @@
+.a1 {
+    width: 600px;
+    height: 337px;
+    background: burlywood;
+    margin: 0 auto 20px;
+}
+
+.a2 {
+    width: 600px;
+    height: 300px;
+    background: #53ea98;
+}
+
+.a5 {
+    width: 200px;
+    height: 300px;
+    background: #e5b548;
+    float: left
+}
+
+.a8 {
+    width: 200px;
+    height: 150px;
+    background: #79e8d7;
+}
+
+.a9 {
+    width: 200px;
+    height: 150px;
+    background: #e7f76a;
+}
+
+.a6 {
+    width: 200px;
+    height: 300px;
+    background: #8768f0;
+    float: left;
+}
+
+.a10 {
+    width: 50px;
+    height: 300px;
+    background: #f068f0;
+    float: left;
+}
+
+.a11 {
+    width: 50px;
+    height: 300px;
+    background: #7e63d8;
+    float: left;
+}
+
+.a12 {
+    width: 50px;
+    height: 300px;
+    background: #f0eb68;
+    float: left;
+}
+
+.a13 {
+    width: 50px;
+    height: 300px;
+    background: #eb5b5b;
+    float: left;
+}
+
+.a7 {
+    width: 200px;
+    height: 300px;
+    background: #4ef2df;
+    float: left;
+}
+
+.a14 {
+    width: 200px;
+    height: 150px;
+    background: #424ee0;
+}
+
+.a15 {
+    width: 200px;
+    height: 150px;
+    background: #57e68e;
+}
+
+.a16 {
+    width: 100px;
+    height: 150px;
+    background: #ab7add;
+    float: left;
+}
+
+.a17 {
+    width: 100px;
+    height: 150px;
+    background: #bf2626;
+    float: left;
+
+}
+
+.a3 {
+    width: 600px;
+    height: 300px;
+    background: #5366b9
+}
+
+.a4 {
+    width: 600px;
+    height: 300px;
+    background: #c926e6
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    height: 100px;
+    background-color: #34495e;
+}
+
+.content {
+    height: 500px;
+    background-color: ;
+}
+
+.content .left-side {
+    width: 30%;
+    height: 300px;
+    background-color: #1abc9c;
+    float: left;
+}
+
+.content .middle {
+    width: 30%;
+    height: 500px;
+    background-color: #f1c40f;
+    overflow: hidden;
+    float: left;
+}
+
+.content .right-side {
+    width: 40%;
+    height: 400px;
+    background-color: #8e44ad;
+    overflow: hidden;
+}
+
+.footer {
+    height: 80px;
+    background-color: #34495e;
+}
+
+.footer .f1 {
+    width: 40%;
+    height: 80px;
+    background-color: #c0392b;
+    float: left;
+}
+
+.footer .f2 {
+    width: 60%;
+    height: 80px;
+    background-color: #7f8c8d;
+    overflow: hidden;
+}
