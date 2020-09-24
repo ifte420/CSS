@@ -10,3 +10,15 @@ ul li:last-child {
     list-style: upper-alpha;
     font-size: 18px;
 }
+
+table,td,th {
+    border: 1px solid #383838;
+    text-align: left;
+}
+td,th {
+    padding: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse
+}
