@@ -28,17 +28,61 @@ table {
     width: 100%;
     border-collapse: collapse
 }
+
 h2 {
     text-align: center;
     display: inline-block;
 }
+.xd {
+    width: 300px;
+    height: 260px;
+    border: 2x solid #1f1919;
+    overflow: scroll;
+}
+
 .n1 {
     border: 3px solid #22b0e5;
     width: 550px;
     margin: 0 auto;
 }
+
 .n2 {
     border: 3px solid #b611dd;
     max-width: 550px;
     margin: 0 auto;
+}
+
+.green_box {
+    width: 600px;
+    height: 350px;
+    background: #0d7211;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.red_box {
+    width: 180px;
+    height: 180px;
+    background: #e31a1a;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+.ifte {
+    border: 2px solid #39aaf0;
+    padding: 5px;
+    margin-top: 10px;
+    background: #f2f2be;
+    position: sticky;
+    top: 0;
+    font-size: 20px;
+}
+p{
+    padding-bottom: 1000px;
 }
