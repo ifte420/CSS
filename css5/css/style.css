@@ -1,0 +1,12 @@
+/* circle, square, upper-roman, lower-alpha*/
+ul li:first-child {
+    list-style: decimal-leading-zero;
+    list-style-position:inside;
+    font-size: 18px;
+    margin-bottom: 5px;
+    
+}
+ul li:last-child {
+    list-style: upper-alpha;
+    font-size: 18px;
+}
