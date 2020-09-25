@@ -19,3 +19,48 @@
 .box4 {
     background: #eb72dd;
 }
+
+.a {
+    width: 100px;
+    height: 100px;
+    background: #91d9ff;
+    padding: 3px;
+    display: inline;
+}
+
+.b {
+    width: 100px;
+    height: 100px;
+    background: #91d9ff;
+    padding: 3px;
+    display: inline-block;
+}
+
+.c {
+    width: 100px;
+    height: 100px;
+    background: #91d9ff;
+    padding: 3px;
+    display: block;
+}
+.menu{
+    background: #40e2b6;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+ul li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+ul li a {
+    text-decoration: none;
+    color: #816b50
+}
+ul li:hover,
+ul li:hover a{
+    background: #000;
+    color: #ffffff;
+}
