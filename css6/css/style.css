@@ -1,0 +1,21 @@
+.box {
+    height: 200px;
+    width: 25%;
+    float: right;
+}
+
+.box1 {
+    background: #f25050;
+}
+
+.box2 {
+    background: #383737;
+}
+
+.box3 {
+    background: #40e2b6;
+}
+
+.box4 {
+    background: #eb72dd;
+}
