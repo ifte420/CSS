@@ -106,4 +106,37 @@ ul,ol {
 .main-menu ul li:hover:before {
     width: 100%; 
 }
-
+.ifte_menu {
+    background: #221f1f;
+    overflow: hidden;
+}
+ul.ifte_menu li {
+    float: left;
+}
+ul.ifte_menu li a {
+    color: #ffff;
+    text-transform: capitalize;
+    padding: 12px 16px;
+    display: inline-block;
+}
+ul.ifte_menu li a:hover {
+    background: #ff5959;
+}
+.dropdown .dropdown-content{
+    display: none;
+    position: absolute;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.32);
+    min-width: 200px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown .dropdown-content a {
+    display: block;
+    color: #2a2020;
+    background: #ffffff;
+    text-align: center;
+}
+.dropdown .dropdown-content a:hover{
+    background: #f1f1f1;
+}
