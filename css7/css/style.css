@@ -185,5 +185,27 @@ ul.ifte_menu li a:hover {
 }
 
 .icons .icon_ul li:hover:nth-child(3) a {
-	background-position: -840px -168px;
+    background-position: -840px -168px;
+}
+
+.red_box {
+    width: 300px;
+    height: 300px;
+    background: #f26060;
+}
+
+@media (min-width: 100px) and (max-width: 480px) {
+    .red_box {
+        background: #086a2a;
+        width: 150px;
+        height: 150px;
+    }
+
+    .ifte_menu {
+        width: 100%;
+    }
+
+    ul.ifte_menu li a {
+        padding: 18px 7px;
+    }
 }
