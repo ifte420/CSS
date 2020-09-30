@@ -156,7 +156,7 @@ ul.ifte_menu li a:hover {
 }
 
 .icons .icon_ul li a {
-    background: url('http://127.0.0.1:53554/img/sprite-icon-29.png') no-repeat;
+    background: url('../img/sprite-icon-29.png') no-repeat;
     width: 84px;
     height: 84px;
     border: 1px solid #131111;
