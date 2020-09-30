@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.box2 {
+    max-width: 100px;
+    height: 100px;
+    margin-bottom: 200px;
+    background: #df3e3e;
+    position: relative;
+    animation: ifte 4s linear 2 alternate backwards;
+
+    /*    animation-fill-mode: backwards;*/
+}
+
+@keyframes ifte {
+    0% {
+        background: #ec9b23;
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        background: #41ff2d;
+        top: 0px;
+        left: 200px;
+    }
+
+    50% {
+        background: #4736e4;
+        left: 200px;
+        top: 100px;
+    }
+
+    75% {
+        background: #3a3636;
+        top: 100px;
+        left: 0;
+    }
+
+    100% {
+        background: #37d4dd;
+        left: 0;
+        top: 0;
+    }
+
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: #e74848;
+    transition: width 1s, height 1s, transform 1s;
+    transition-timing-function: linear;
+    margin-bottom: 100px;
+}
+
+.box:hover {
+    width: 300px;
+    height: 400px;
+    transform: rotate(180deg);
+}
+
+img {
+    max-width: 20%;
+}
+
+.filter {
+    filter: blur(1px)
+}
+
+.brightness {
+    filter: brightness(150%);
+}
+
+.contrast {
+    filter: contrast(150%);
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.invert {
+    filter: invert(90%);
+}
+
+.opacity {
+    filter: opacity(60%);
+}
+
+.saturate {
+    filter: saturate(3);
+}
