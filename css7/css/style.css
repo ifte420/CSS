@@ -220,3 +220,16 @@ ul.ifte_menu li a:hover {
     height: 300px;
     background: radial-gradient(red, green, yellow);
 }
+.box {
+    max-width: 150px;
+    height: 150px;
+    background: #ed4a4a;
+    border: 2px solid #0000;
+    padding: 20px;
+    font-size: 20px;
+    margin: 50px auto;
+/*    transform: translate(100px, 50px);*/
+    transform: rotate(-30deg);
+/*    transform: scale(2, 1.5);*/
+/*    transform: skewY(200deg);*/
+}
