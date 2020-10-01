@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     outline: 0;
+    box-sizing: border-box;
 }
 
 .box2 {
@@ -93,4 +94,15 @@ img {
 
 .saturate {
     filter: saturate(3);
+}
+.ifte {
+    width: 300px;
+    height: 100px;
+    border: 1px solid red;
+}
+.reaid {
+    width: 300px;
+    height: 100px;
+    border: 1px solid green;
+    padding: 50px;
 }
