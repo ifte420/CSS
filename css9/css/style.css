@@ -1,0 +1,16 @@
+.grid-container {
+    display: grid;
+/*    justify-content: space-between;*/
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px 200px;
+    background: red;
+    padding: 10px;
+/*    grid-row-gap: 20px;*/
+/*    grid-column-gap: 50px;*/
+    grid-gap: 20px 50px;
+}
+.grid_item{
+    border: 1px solid #ffff;
+    font-size: 30px;
+    text-align: center;
+}
